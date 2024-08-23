@@ -1,0 +1,22 @@
+[
+    {
+        "id": "A1",
+        "name": "Tile 1",
+        "src": "assets/tiles/tile1.jpg"
+    },
+    {
+        "id": "B2",
+        "name": "Tile 2",
+        "src": "assets/tiles/tile2.jpg"
+    },
+    {
+        "id": "C3",
+        "name": "Tile 3",
+        "src": "assets/tiles/tile3.jpg"
+    },
+    {
+        "id": "D4",
+        "name": "Tile 4",
+        "src": "assets/tiles/tile4.jpg"
+    }
+]

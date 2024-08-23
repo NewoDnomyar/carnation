@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Photo Collage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Photo Collage Maker</div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="collage.html" class="nav-link">Create Collage</a>
+            <a href="checkout.html" class="nav-link">Checkout</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Create Your Photo Collage</h1>
+        <p>Please upload your photos using the link below:</p>
+
+        <!-- Link to Google Form -->
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdM8t-2nnSDtBTVBPyjqp74fivXbbgjxYy_aUO6C5BwB9EzXw/viewform?usp=sf_link" target="_blank" class="button">
+            Upload Photos
+        </a>
+
+        <p>After uploading your photos, return to this page to create your collage.</p>
+
+        <!-- Collage Template Area -->
+        <div id="imageTemplate" class="collage-grid">
+            <div class="template-slot" data-slot="1">Click to upload</div>
+            <div class="template-slot" data-slot="2">Click to upload</div>
+            <div class="template-slot" data-slot="3">Click to upload</div>
+            <div class="template-slot" data-slot="4">Click to upload</div>
+            <div class="template-slot" data-slot="5">Click to upload</div>
+            <div class="template-slot" data-slot="6">Click to upload</div>
+        </div>
+
+        <button id="orderButton" disabled>Proceed to Checkout</button>
+        <input type="file" id="imageUpload" style="display: none;" accept="image/*">
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
